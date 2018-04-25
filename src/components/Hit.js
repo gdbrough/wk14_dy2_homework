@@ -1,10 +1,13 @@
 import React from "react";
 
 const Hit = (props) => (
-  <p>
-    Number {props.position}: {props.name}
+  <React.Fragment>
+    <p>Number {props.position}: {props.name}</p>
     {/* {props.children} */}
-  </p>
+    <img src={props.cover} alt={props.title}></img>
+    <hr />
+  </React.Fragment>
+
 )
 
 export default Hit;

@@ -1,6 +1,5 @@
 import React from 'react';
 import HitList from '../components/HitList';
-import Hit from '../components/Hit';
 
 class HitBox extends React.Component {
   constructor(props){
