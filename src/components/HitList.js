@@ -6,7 +6,6 @@ class HitList extends Component{
   render(){
     if(!this.props.hitTunes.length) return null;
     const hitList = this.props.hitTunes.map((hit, index) => {
-      console.log(index, hit.title.label);
       return(
         <Hit key={index} position={index + 1} name={hit.title.label}>
         </Hit>
