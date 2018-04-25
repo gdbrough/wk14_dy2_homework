@@ -9,8 +9,6 @@ class HitList extends Component{
       console.log(index, hit.title.label);
       return(
         <Hit key={index} position={index + 1} name={hit.title.label}>
-           {/* key={film.id} tagLine={film.tagLine}> */}
-          {/* "test" */}
         </Hit>
       );
     });
